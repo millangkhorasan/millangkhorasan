@@ -376,6 +376,21 @@ function setLanguage(lang) {
 langButtons.forEach(btn => btn.addEventListener('click', () => setLanguage(btn.dataset.lang)));
 setLanguage(currentLang);
 
+const themeToggle = document.getElementById('themeToggle');
+let currentTheme = 'dark';
+
+function applyTheme(theme) {
+  currentTheme = theme;
+  document.body.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+}
+
+themeToggle.addEventListener('click', () => {
+  applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+});
+
+applyTheme(currentTheme);
+
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
 menuToggle.addEventListener('click', () => {
