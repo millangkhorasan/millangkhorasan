@@ -335,13 +335,7 @@ body[lang="en"] .nav a::after { right: auto; left: 0; }
   margin-bottom: 12px;
   color: var(--white);
 }
-.section-title::after {
-  content: '';
-  display: block;
-  width: 70px; height: 3px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 16px auto 0;
-}
+
 .section-subtitle {
   text-align: center;
   color: var(--text-muted);
