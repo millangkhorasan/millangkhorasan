@@ -1,164 +1,325 @@
 const translations = {
-  en: {
-    nav_home: "Home",
-    nav_features: "Features",
-    nav_gallery: "Gallery",
-    nav_specs: "Specs",
-    nav_contact: "Contact",
-    hero_title: "Premium Crankshaft",
-    hero_subtitle: "Engineered for ultimate performance, durability & precision",
-    hero_btn1: "View Specs",
-    hero_btn2: "Contact Us",
-    features_title: "Why Choose Our Crankshaft",
-    features_subtitle: "Built with aerospace-grade materials and precision engineering",
-    f1_title: "Forged Steel",
-    f1_desc: "High-strength 4340 forged steel for maximum durability under extreme loads.",
-    f2_title: "Precision Balanced",
-    f2_desc: "Computer-balanced to within 0.1 gram for smooth, vibration-free operation.",
-    f3_title: "Heat Treated",
-    f3_desc: "Nitride hardened journals for superior wear resistance and longevity.",
-    f4_title: "5-Year Warranty",
-    f4_desc: "Backed by a comprehensive 5-year warranty against manufacturing defects.",
-    gallery_title: "Product Gallery",
-    gallery_subtitle: "Take a closer look at our premium crankshaft",
-    specs_title: "Technical Specifications",
-    specs_subtitle: "Precision-engineered to meet the highest standards",
-    spec_material: "Material",
-    spec_weight: "Weight",
-    spec_stroke: "Stroke",
-    spec_journal: "Main Journal",
-    spec_hardness: "Hardness",
-    spec_tolerance: "Tolerance",
-    spec_warranty: "Warranty",
-    spec_origin: "Origin",
-    contact_title: "Get In Touch",
-    contact_subtitle: "Request a quote or ask us anything about our product",
-    form_name: "Full Name",
-    form_email: "Email Address",
-    form_message: "Your Message",
-    form_submit: "Send Message",
-    form_success: "Thank you! Your message has been sent successfully.",
-    form_error: "Please fill in all fields correctly.",
-    slide_alt: "Crankshaft slide"
-  },
   fa: {
-    nav_home: "\u062e\u0627\u0646\u0647",
-    nav_features: "\u0648\u06cc\u0698\u06af\u06cc\u200c\u0647\u0627",
-    nav_gallery: "\u06af\u0627\u0644\u0631\u06cc",
-    nav_specs: "\u0645\u0634\u062e\u0635\u0627\u062a",
-    nav_contact: "\u062a\u0645\u0627\u0633",
-    hero_title: "\u0645\u06cc\u0644\u200c\u0644\u0646\u06af \u062d\u0631\u0641\u0647\u200c\u0627\u06cc",
-    hero_subtitle: "\u0637\u0631\u0627\u062d\u06cc\u200c\u0634\u062f\u0647 \u0628\u0631\u0627\u06cc \u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646 \u0639\u0645\u0644\u06a9\u0631\u062f\u060c \u062f\u0648\u0627\u0645 \u0648 \u062f\u0642\u062a",
-    hero_btn1: "\u0645\u0634\u0627\u0647\u062f\u0647 \u0645\u0634\u062e\u0635\u0627\u062a",
-    hero_btn2: "\u062a\u0645\u0627\u0633 \u0628\u0627 \u0645\u0627",
-    features_title: "\u0686\u0631\u0627 \u0645\u06cc\u0644\u200c\u0644\u0646\u06af \u0645\u0627 \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u06a9\u0646\u06cc\u062f",
-    features_subtitle: "\u0633\u0627\u062e\u062a\u0647\u200c\u0634\u062f\u0647 \u0628\u0627 \u0645\u0648\u0627\u062f \u0628\u0627 \u06a9\u06cc\u0641\u06cc\u062a \u0647\u0648\u0627\u0641\u0636\u0627 \u0648 \u0645\u0647\u0646\u062f\u0633\u06cc \u062f\u0642\u06cc\u0642",
-    f1_title: "\u0641\u0648\u0644\u0627\u062f \u0622\u0647\u0646\u06af\u0631\u06cc",
-    f1_desc: "\u0641\u0648\u0644\u0627\u062f \u0622\u0647\u0646\u06af\u0631\u06cc \u06f4\u06f3\u06f4\u06f0 \u0628\u0627 \u0627\u0633\u062a\u062d\u06a9\u0627\u0645 \u0628\u0627\u0644\u0627 \u0628\u0631\u0627\u06cc \u062d\u062f\u0627\u06a9\u062b\u0631 \u062f\u0648\u0627\u0645 \u062f\u0631 \u0628\u0627\u0631\u0647\u0627\u06cc \u0634\u062f\u06cc\u062f.",
-    f2_title: "\u062a\u0639\u0627\u062f\u0644 \u062f\u0642\u06cc\u0642",
-    f2_desc: "\u0628\u0627 \u06a9\u0627\u0645\u067e\u06cc\u0648\u062a\u0631 \u062a\u0627 \u06f0.\u06f1 \u06af\u0631\u0645 \u0645\u062a\u0639\u0627\u062f\u0644 \u0634\u062f\u0647 \u0628\u0631\u0627\u06cc \u0639\u0645\u0644\u06a9\u0631\u062f\u06cc \u0646\u0631\u0645 \u0648 \u0628\u062f\u0648\u0646 \u0644\u0631\u0632\u0634.",
-    f3_title: "\u0639\u0645\u0644\u06cc\u0627\u062a \u062d\u0631\u0627\u0631\u062a\u06cc",
-    f3_desc: "\u0698\u0648\u0631\u0646\u0627\u0644\u200c\u0647\u0627\u06cc \u0646\u06cc\u062a\u0631\u06cc\u062f\u0647\u200c\u0634\u062f\u0647 \u0628\u0631\u0627\u06cc \u0645\u0642\u0627\u0648\u0645\u062a \u0628\u0627\u0644\u0627\u062a\u0631 \u062f\u0631 \u0628\u0631\u0627\u0628\u0631 \u0633\u0627\u06cc\u0634 \u0648 \u0639\u0645\u0631 \u0637\u0648\u0644\u0627\u0646\u06cc\u200c\u062a\u0631.",
-    f4_title: "\u06f5 \u0633\u0627\u0644 \u0636\u0645\u0627\u0646\u062a",
-    f4_desc: "\u0628\u0627 \u0636\u0645\u0627\u0646\u062a \u06a9\u0627\u0645\u0644 \u06f5 \u0633\u0627\u0644\u0647 \u062f\u0631 \u0628\u0631\u0627\u0628\u0631 \u0646\u0642\u0635\u200c\u0647\u0627\u06cc \u062a\u0648\u0644\u06cc\u062f\u06cc.",
-    gallery_title: "\u06af\u0627\u0644\u0631\u06cc \u0645\u062d\u0635\u0648\u0644",
-    gallery_subtitle: "\u0646\u06af\u0627\u0647\u06cc \u0646\u0632\u062f\u06cc\u06a9\u200c\u062a\u0631 \u0628\u0647 \u0645\u06cc\u0644\u200c\u0644\u0646\u06af \u062d\u0631\u0641\u0647\u200c\u0627\u06cc \u0645\u0627",
-    specs_title: "\u0645\u0634\u062e\u0635\u0627\u062a \u0641\u0646\u06cc",
-    specs_subtitle: "\u0645\u0647\u0646\u062f\u0633\u06cc \u062f\u0642\u06cc\u0642 \u0628\u0631\u0627\u06cc \u0628\u0631\u0622\u0648\u0631\u062f\u0647 \u06a9\u0631\u062f\u0646 \u0628\u0627\u0644\u0627\u062a\u0631\u06cc\u0646 \u0627\u0633\u062a\u0627\u0646\u062f\u0627\u0631\u062f\u0647\u0627",
-    spec_material: "\u062c\u0646\u0633",
-    spec_weight: "\u0648\u0632\u0646",
-    spec_stroke: "\u06a9\u0648\u0631\u0633",
-    spec_journal: "\u0698\u0648\u0631\u0646\u0627\u0644 \u0627\u0635\u0644\u06cc",
-    spec_hardness: "\u0633\u062e\u062a\u06cc",
-    spec_tolerance: "\u062a\u0644\u0631\u0627\u0646\u0633",
-    spec_warranty: "\u0636\u0645\u0627\u0646\u062a",
-    spec_origin: "\u0633\u0627\u062e\u062a",
-    contact_title: "\u0628\u0627 \u0645\u0627 \u062f\u0631 \u062a\u0645\u0627\u0633 \u0628\u0627\u0634\u06cc\u062f",
-    contact_subtitle: "\u062f\u0631\u062e\u0648\u0627\u0633\u062a \u0642\u06cc\u0645\u062a \u06a9\u0646\u06cc\u062f \u06cc\u0627 \u0647\u0631 \u0633\u0648\u0627\u0644\u06cc \u062f\u0631\u0628\u0627\u0631\u0647 \u0645\u062d\u0635\u0648\u0644 \u062f\u0627\u0631\u06cc\u062f \u0628\u067e\u0631\u0633\u06cc\u062f",
-    form_name: "\u0646\u0627\u0645 \u06a9\u0627\u0645\u0644",
-    form_email: "\u0622\u062f\u0631\u0633 \u0627\u06cc\u0645\u06cc\u0644",
-    form_message: "\u067e\u06cc\u0627\u0645 \u0634\u0645\u0627",
-    form_submit: "\u0627\u0631\u0633\u0627\u0644 \u067e\u06cc\u0627\u0645",
-    form_success: "\u0645\u062a\u0634\u06a9\u0631\u06cc\u0645! \u067e\u06cc\u0627\u0645 \u0634\u0645\u0627 \u0628\u0627 \u0645\u0648\u0641\u0642\u06cc\u062a \u0627\u0631\u0633\u0627\u0644 \u0634\u062f.",
-    form_error: "\u0644\u0637\u0641\u0627\u064b \u0647\u0645\u0647 \u0641\u06cc\u0644\u062f\u0647\u0627 \u0631\u0627 \u0628\u0647 \u062f\u0631\u0633\u062a\u06cc \u067e\u0631 \u06a9\u0646\u06cc\u062f.",
-    slide_alt: "\u0627\u0633\u0644\u0627\u06cc\u062f \u0645\u06cc\u0644\u200c\u0644\u0646\u06af"
+    nav_intro: "معرفی",
+    nav_types: "انواع",
+    nav_materials: "مواد اولیه",
+    nav_process: "فرآیند تولید",
+    nav_heat: "عملیات حرارتی",
+    nav_qc: "کنترل کیفیت",
+    nav_order: "سفارش",
+    hero_eyebrow: "کاتالوگ تولید میل لنگ",
+    hero_title: "میل‌لنگ خراسان",
+    hero_subtitle: "تولید تخصصی میل‌لنگ تراکتورهای فرگوسن ۱۶۵، ۲۴۰، ۲۸۵، ۳۹۹ و ۴۷۵ به روش ریخته‌گری",
+    badge1: "فولاد ۴۳۴۰",
+    badge2: "نیتروژن‌دهی سطحی",
+    badge3: "رولینگ فیله",
+    badge4: "کنترل کیفیت کامل",
+    hero_btn1: "مشخصات سفارش",
+    intro_title: "معرفی محصول و کاربردها",
+    intro_subtitle: "سه رده کاربرد، یک استاندارد تولید",
+    intro_p1: "میل‌لنگ‌های این شرکت در سه رده کاربرد عرضه می‌شوند: موتورهای کشاورزی و تراکتور (شامل مدل‌های فرگوسن ۱۶۵، ۲۴۰، ۲۸۵، ۳۹۹ و ۴۷۵)، موتورهای دیزل تجاری و سنگین، و موتورهای بنزینی سبک. هر رده محدوده مشخصی از قطر ژورنال، کورس، تعداد لنگ و کلاس وزنی دارد که در بخش مشخصات سفارش آمده است.",
+    intro_p2: "میل لنگ قلب تپنده هر موتور درون‌سوز است؛ قطعه‌ای که حرکت خطی پیستون را به حرکت دورانی تبدیل می‌کند و در همان حال باید بارهای خمشی و پیچشی متغیر، لرزش و سایش را سال‌های متمادی تاب بیاورد. به همین دلیل در ساخت آن، خواصی هم‌زمان خواسته می‌شود که در نگاه اول متناقض به نظر می‌رسند: سطحی سخت و مقاوم به سایش در کنار مغزی چقرمه و مقاوم به ضربه.",
+    stat_classes: "رده کاربرد",
+    stat_models: "مدل فرگوسن",
+    stat_steel: "فولاد پایه",
+    stat_core: "سختی مغزی",
+    types_title: "انواع میل لنگ و رده‌های تولیدی",
+    types_subtitle: "ریخته‌گری؛ روش تولید انبوه با پیوستگی بالا",
+    type1_title: "میل لنگ ریخته‌گری شده",
+    type1_desc: "مذاب فلز در قالب ریخته می‌شود و پس از انجماد، قطعه خام به دست می‌آید. این روش امکان تولید انبوه مدل‌های یکسان را فراهم می‌کند و ماشین‌کاری نهایی ژورنال‌ها، فیله‌ها و پین‌ها روی قطعه ریختگی انجام می‌شود.",
+    type2_title: "مدل‌های تولیدی",
+    type2_desc: "این شرکت میل لنگ تراکتورهای فرگوسن مدل‌های ۱۶۵، ۲۴۰، ۲۸۵، ۳۹۹ و ۴۷۵ را به روش ریخته‌گری تولید می‌کند. این مدل‌ها پرتقاضاترین میل لنگ‌های کشاورزی بازار هستند و برای آن‌ها برنامه تولید پیوسته و موجودی قابل اتکا در نظر گرفته شده است.",
+    type3_title: "فولاد کم آلیاژ ۴۳۴۰",
+    type3_desc: "فولاد پایه این خط تولید، فولاد کم آلیاژ و قابل عملیات حرارتی ۴۳۴۰ است که به دلیل چقرمگی بالا و توانایی رسیدن به استحکام زیاد همراه با مقاومت خستگی مناسب، شناخته شده است.",
+    type4_title: "آلیاژهای جایگزین",
+    type4_desc: "بر پایه درخواست مشتری، فولادهای آلیاژی دیگر مانند B30EN نیز قابل تأمین است. ماشین‌کاری فولاد ۴۳۴۰ در حالت آنیل یا نرماله و تمپرشده توصیه می‌شود.",
+    materials_title: "مواد اولیه و مشخصات فولاد",
+    materials_subtitle: "فولاد ۴۳۴۰؛ سخت‌شونده در کل مقطع",
+    materials_p1: "فولاد پایه این خط تولید، فولاد کم آلیاژ و قابل عملیات حرارتی ۴۳۴۰ است که به دلیل چقرمگی بالا و توانایی رسیدن به استحکام زیاد همراه با مقاومت خستگی مناسب، شناخته شده است. این فولاد از نوع «سخت‌شونده در کل مقطع» به شمار می‌رود و مقاطع ضخیم آن نیز قابل عملیات حرارتی تا استحکام بالاست.",
+    materials_p2: "بر پایه درخواست مشتری، فولادهای آلیاژی دیگر مانند B30EN نیز قابل تأمین است. لازم به ذکر است که ماشین‌کاری فولاد ۴۳۴۰ در حالت آنیل یا نرماله و تمپرشده توصیه می‌شود؛ در حالت استحکام بالا، قابلیت ماشین‌کاری آن به حدود ۱۰ تا ۲۵ درصد حالت آنیل کاهش می‌یابد و همین نکته، ترتیب مراحل تولید را تعیین می‌کند.",
+    steel1: "فولاد کم آلیاژ، سخت‌شونده در کل مقطع، چقرمگی بالا",
+    steel2: "آلیاژ جایگزین بر اساس درخواست مشتری",
+    steel3_title: "آنیل / نرماله",
+    steel3: "وضعیت توصیه‌شده برای ماشین‌کاری",
+    process_title: "فرآیند تولید مرحله به مرحله",
+    process_subtitle: "ریخته‌گری، سپس عملیات حرارتی پیش از ماشین‌کاری نهایی",
+    step1_t: "ذوب و آماده‌سازی مذاب",
+    step1_d: "فولاد آلیاژی در کوره ذوب و ترکیب شیمیایی آن پیش از ریختن تنظیم و کنترل می‌شود.",
+    step2_t: "قالب‌گیری و ریخته‌گری",
+    step2_d: "مذاب در قالب ریخته می‌شود و پس از انجماد، قطعه خام میل لنگ به دست می‌آید.",
+    step3_t: "تمیزکاری قطعه خام",
+    step3_d: "پلیسه‌ها، زائده‌های تغذیه و ماسه‌های چسبیده از سطح قطعه پاک می‌شوند.",
+    step4_t: "کوئنچ و تمپر",
+    step4_d: "قطعه خام در محیط کنترل‌شده سریع سرد و سپس تمپر می‌شود تا سختی مغزی به حدود ۳۶ راکول C برسد.",
+    step5_t: "ماشین‌کاری",
+    step5_d: "ژورنال‌ها، فیله‌ها، پین‌ها و سوراخ‌های روغن‌کاری تراش می‌خورند.",
+    step6_t: "تنش‌گیری",
+    step6_d: "قطعه در کوره تا ۲۰۰ تا ۳۱۵ درجه سلسیوس گرم و با شیب سردایش کنترل‌شده سرد می‌شود.",
+    heat_title: "عملیات حرارتی و سخت‌کاری سطحی",
+    heat_subtitle: "نیتروژن‌دهی؛ سخت‌کاری سطحی با حداقل اعوجاج",
+    heat1_t: "نیتروژن‌دهی گازی",
+    heat1_d: "قطعه در معرض مخلوط آمونیاک و نیتروژن قرار می‌گیرد و نیتروژن اتمی با عناصر آلیاژی سطح، نیتریدهای پایدار و سخت می‌سازد.",
+    heat2_t: "دمای پایین‌تر از کربن‌دهی",
+    heat2_d: "برخلاف کربن‌دهی (۸۷۵ تا ۹۲۵ درجه)، این فرآیند در گستره پایداری فریت و دمای ۵۵۰ تا ۶۵۰ درجه سلسیوس اجرا می‌شود؛ سردایش در هوا و اعوجاج حداقلی.",
+    heat3_t: "عمق لایه سخت",
+    heat3_d: "معمولاً ۰٫۰۰۲ تا ۰٫۰۰۵ اینچ (حدود ۵۰ تا ۱۲۵ میکرومتر). افزایش بیش از حد توصیه نمی‌شود چون نواحی فیله را ترد و مستعد ترک می‌کند.",
+    heat4_t: "رولینگ فیله",
+    heat4_d: "فیله‌ها پیش از نیتروژن‌دهی تحت رولینگ قرار می‌گیرند تا تنش فشاری مطلوب ایجاد شود و آغاز ترک خستگی به تأخیر بیفتد.",
+    qc_title: "کنترل کیفیت و آزمون‌های پذیرش",
+    qc_subtitle: "هر قطعه پیش از تحویل، مجموعه‌ای از آزمون‌ها را می‌گذراند",
+    qc1_t: "بازرسی ابعادی:",
+    qc1_d: "اندازه‌گیری قطر ژورنال‌ها، کورس، تلرانس هم‌محوری و تیزی گوشه‌ها.",
+    qc2_t: "پروفایل‌سنجی:",
+    qc2_d: "بررسی انحنای سطح ژورنال‌ها با دستگاه پروفایلومتر برای اطمینان از شکل‌دهی درست.",
+    qc3_t: "آزمون سختی:",
+    qc3_d: "سنجش سختی مغزی و سطحی و اندازه‌گیری عمق لایه نیتریده.",
+    qc4_t: "آزمون خستگی و تنش:",
+    qc4_d: "تأیید استحکام متالورژیکی قطعه در شرایط بارگذاری نزدیک به واقعی.",
+    qc5_t: "بازرسی چشمی و ابعادی نهایی:",
+    qc5_d: "کنترل تمام‌شده سوراخ‌های روغن‌کاری و نبود ترک سطحی.",
+    order_title: "مشخصات سفارش و شرایط تحویل",
+    order_subtitle: "سفارش بر پایه جدول زیر و با ارائه نقشه یا نمونه فیزیکی",
+    th_param: "پارامتر قابل سفارش",
+    th_options: "گزینه‌های موجود",
+    row1_l: "روش شکل‌دهی",
+    row1_v: "ریخته‌گری",
+    row2_l: "جنس فولاد",
+    row2_v: "۴۳۴۰، B30EN یا آلیاژ توافقی",
+    row3_l: "تعداد لنگ",
+    row3_v: "بر پایه نقشه",
+    row4_l: "عمق نیتروژن‌دهی",
+    row4_v: "۰٫۰۰۲ تا ۰٫۰۰۵ اینچ",
+    row5_l: "رولینگ فیله",
+    row5_v: "با یا بدون",
+    row6_l: "تمپر برودتی",
+    row6_v: "اختیاری",
+    row7_l: "پرداخت نهایی",
+    row7_v: "آب‌بندی، صیقل، بالانس دینامیکی",
+    order_note: "تحویل محصول همراه با گزارش کنترل کیفیت، گواهی جنس فولاد و گزارش سختی‌سنجی انجام می‌شود. برای سفارش‌های خاص، امکان تأمین فولاد آلیاژی سفارشی، انتخاب عمق سخت‌کاری متفاوت و بالانس دینامیکی تک‌قطعه وجود دارد."
+  },
+  en: {
+    nav_intro: "Introduction",
+    nav_types: "Types",
+    nav_materials: "Materials",
+    nav_process: "Production",
+    nav_heat: "Heat Treatment",
+    nav_qc: "Quality Control",
+    nav_order: "Ordering",
+    hero_eyebrow: "Crankshaft Production Catalog",
+    hero_title: "Millang Khorasan",
+    hero_subtitle: "Specialized production of Ferguson tractor crankshafts (165, 240, 285, 399, 475) by casting",
+    badge1: "4340 Steel",
+    badge2: "Nitriding",
+    badge3: "Fillet Rolling",
+    badge4: "Full QC",
+    hero_btn1: "Order Specifications",
+    intro_title: "Product Introduction and Applications",
+    intro_subtitle: "Three application classes, one production standard",
+    intro_p1: "Crankshafts from this company are supplied in three application classes: agricultural and tractor engines (including Ferguson models 165, 240, 285, 399, and 475), commercial and heavy-duty diesel engines, and light gasoline engines. Each class has a specific range of journal diameter, stroke, number of throws, and weight class, set out in the Ordering Specifications section.",
+    intro_p2: "The crankshaft is the beating heart of every internal combustion engine — the component that converts the linear motion of the piston into rotary motion while withstanding variable bending and torsional loads, vibration, and wear for many years. Its manufacture therefore demands properties that appear contradictory at first glance: a hard, wear-resistant surface together with a tough, impact-resistant core.",
+    stat_classes: "Application Classes",
+    stat_models: "Ferguson Models",
+    stat_steel: "Base Steel",
+    stat_core: "Core Hardness",
+    types_title: "Types of Crankshafts and Production Classes",
+    types_subtitle: "Casting — high-continuity mass production method",
+    type1_title: "Cast Crankshafts",
+    type1_desc: "Molten metal is poured into the mold and, after solidification, the raw casting is obtained. This method allows mass production of identical models, and final machining of journals, fillets, and pins is carried out on the casting.",
+    type2_title: "Production Models",
+    type2_desc: "The company manufactures crankshafts for Ferguson tractors 165, 240, 285, 399, and 475 by casting. These are the most in-demand agricultural crankshafts on the market, and continuous production schedules and reliable stock are maintained for them.",
+    type3_title: "4340 Low-Alloy Steel",
+    type3_desc: "The base steel of this line is 4340 low-alloy, heat-treatable steel, recognized for its high toughness and its ability to reach high strength together with good fatigue resistance.",
+    type4_title: "Alternative Alloys",
+    type4_desc: "On customer request, other alloy steels such as EN30B/B30EN can also be supplied. Machining 4340 steel is recommended in the annealed or normalized-and-tempered condition.",
+    materials_title: "Raw Materials and Steel Specifications",
+    materials_subtitle: "4340 steel — through-hardening",
+    materials_p1: "The base steel of this line is 4340 low-alloy, heat-treatable steel, recognized for its high toughness and its ability to reach high strength together with good fatigue resistance. This steel is through-hardening, and even thick sections can be heat treated to high strength.",
+    materials_p2: "On customer request, other alloy steels such as EN30B can also be supplied. Note that machining 4340 steel is recommended in the annealed or normalized-and-tempered condition; at high strength, its machinability falls to about 10 to 25 percent of the annealed state, and this fact governs the sequence of production steps.",
+    steel1: "Low-alloy, through-hardening, high toughness",
+    steel2: "Alternative alloy on customer request",
+    steel3_title: "Annealed / Normalized",
+    steel3: "Recommended condition for machining",
+    process_title: "Step-by-Step Production Process",
+    process_subtitle: "Casting, then heat treatment before final machining",
+    step1_t: "Melting and Melt Preparation",
+    step1_d: "The alloy steel is melted in a furnace, and its chemical composition is adjusted and controlled before pouring.",
+    step2_t: "Molding and Casting",
+    step2_d: "The melt is poured into the mold and, after solidification, the raw crankshaft is obtained.",
+    step3_t: "Cleaning the Raw Part",
+    step3_d: "Flash, feeder stubs, and adhering sand are removed from the surface.",
+    step4_t: "Quenching and Tempering",
+    step4_d: "The raw part is rapidly cooled in a controlled medium and then tempered until the core hardness reaches about 36 HRC.",
+    step5_t: "Machining",
+    step5_d: "Journals, fillets, pins, and oil holes are turned.",
+    step6_t: "Stress Relief",
+    step6_d: "The part is heated in a furnace to 200–315 °C (400–600 °F) and cooled at a controlled rate to remove residual machining stresses.",
+    heat_title: "Heat Treatment and Surface Hardening",
+    heat_subtitle: "Nitriding — surface hardening with minimal distortion",
+    heat1_t: "Gas Nitriding",
+    heat1_d: "The part is exposed to a mixture of ammonia and nitrogen, and atomic nitrogen forms stable, hard nitrides with the alloying elements at the surface.",
+    heat2_t: "Lower Temperature than Carburizing",
+    heat2_d: "Unlike carburizing (875–925 °C), this process runs in the ferrite stability range at 550–650 °C; it cools in air, minimizing dimensional distortion.",
+    heat3_t: "Hardened Layer Depth",
+    heat3_d: "Usually 0.002–0.005 in (about 50–125 µm). Excessive depth is not recommended, as it can embrittle the fillet areas and make them prone to cracking.",
+    heat4_t: "Fillet Rolling",
+    heat4_d: "Fillets are subjected to rolling before nitriding; this creates a favorable compressive stress at the surface that delays fatigue crack initiation.",
+    qc_title: "Quality Control and Acceptance Tests",
+    qc_subtitle: "Every part undergoes a series of tests before delivery",
+    qc1_t: "Dimensional inspection:",
+    qc1_d: "Measurement of journal diameters, stroke, coaxiality tolerance, and corner sharpness.",
+    qc2_t: "Profile measurement:",
+    qc2_d: "Checking the surface curvature of journals with a profilometer to ensure correct forming.",
+    qc3_t: "Hardness testing:",
+    qc3_d: "Measurement of core and surface hardness and of the nitrided case depth.",
+    qc4_t: "Fatigue and stress testing:",
+    qc4_d: "Verification of the part's metallurgical strength under near-real loading conditions.",
+    qc5_t: "Final visual and dimensional inspection:",
+    qc5_d: "Complete check of oil holes and absence of surface cracks.",
+    order_title: "Ordering Specifications and Delivery Conditions",
+    order_subtitle: "Orders placed with a drawing or a physical sample",
+    th_param: "Orderable parameter",
+    th_options: "Available options",
+    row1_l: "Forming method",
+    row1_v: "Casting",
+    row2_l: "Steel grade",
+    row2_v: "4340, EN30B / B30EN, or an agreed alloy",
+    row3_l: "Number of throws",
+    row3_v: "According to drawing",
+    row4_l: "Nitriding depth",
+    row4_v: "0.002–0.005 in",
+    row5_l: "Fillet rolling",
+    row5_v: "With or without",
+    row6_l: "Cryogenic tempering",
+    row6_v: "Optional",
+    row7_l: "Final finishing",
+    row7_v: "Deburring, polishing, dynamic balancing",
+    order_note: "Delivery includes a quality control report, a steel grade certificate, and a hardness test report. For special orders, custom alloy steel, a different hardening depth, and single-piece dynamic balancing can be provided."
   },
   ar: {
-    nav_home: "\u0627\u0644\u0631\u0626\u064a\u0633\u064a\u0629",
-    nav_features: "\u0627\u0644\u0645\u0645\u064a\u0632\u0627\u062a",
-    nav_gallery: "\u0627\u0644\u0645\u0639\u0631\u0636",
-    nav_specs: "\u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062a",
-    nav_contact: "\u0627\u062a\u0635\u0644 \u0628\u0646\u0627",
-    hero_title: "\u0639\u0645\u0648\u062f \u0645\u0631\u0641\u0642\u064a \u0627\u062d\u062a\u0631\u0627\u0641\u064a",
-    hero_subtitle: "\u0645\u064f\u0635\u0645\u0645 \u0644\u0623\u062f\u0627\u0621 \u0648\u0645\u062a\u0627\u0646\u0629 \u0648\u062f\u0642\u0629 \u0641\u0627\u0626\u0642\u0629",
-    hero_btn1: "\u0639\u0631\u0636 \u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062a",
-    hero_btn2: "\u0627\u062a\u0635\u0644 \u0628\u0646\u0627",
-    features_title: "\u0644\u0645\u0627\u0630\u0627 \u062a\u062e\u062a\u0627\u0631 \u0639\u0645\u0648\u062f\u0646\u0627 \u0627\u0644\u0645\u0631\u0641\u0642\u064a",
-    features_subtitle: "\u0645\u0635\u0646\u0648\u0639 \u0645\u0646 \u0645\u0648\u0627\u062f \u0628\u062f\u0631\u062c\u0629 \u0627\u0644\u0641\u0636\u0627\u0621 \u0648\u062a\u0642\u0646\u064a\u0629 \u0647\u0646\u062f\u0633\u064a\u0629 \u062f\u0642\u064a\u0642\u0629",
-    f1_title: "\u0641\u0648\u0644\u0627\u0630 \u0645\u0637\u0627\u0648\u0639",
-    f1_desc: "\u0641\u0648\u0644\u0627\u0630 \u0645\u0637\u0627\u0648\u0639 4340 \u0639\u0627\u0644\u064a \u0627\u0644\u0642\u0648\u0629 \u0644\u0623\u0642\u0635\u0649 \u0642\u062f\u0631 \u0645\u0646 \u0627\u0644\u0645\u062a\u0627\u0646\u0629 \u062a\u062d\u062a \u0627\u0644\u0623\u062d\u0645\u0627\u0644 \u0627\u0644\u0634\u062f\u064a\u062f\u0629.",
-    f2_title: "\u062a\u0648\u0627\u0632\u0646 \u062f\u0642\u064a\u0642",
-    f2_desc: "\u0645\u062a\u0648\u0627\u0632\u0646 \u0628\u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 \u0628\u062f\u0642\u0629 \u062a\u0635\u0644 \u0625\u0644\u0649 0.1 \u062c\u0631\u0627\u0645 \u0644\u062a\u0634\u063a\u064a\u0644 \u0633\u0644\u0633 \u0628\u062f\u0648\u0646 \u0627\u0647\u062a\u0632\u0627\u0632.",
-    f3_title: "\u0645\u0639\u0627\u0644\u062c \u062d\u0631\u0627\u0631\u064a\u0627\u064b",
-    f3_desc: "\u0623\u0639\u0645\u062f\u0629 \u0645\u0642\u0648\u0627\u0629 \u0628\u0627\u0644\u0646\u062a\u0631\u0648\u062c\u064a\u0646 \u0644\u0645\u0642\u0627\u0648\u0645\u0629 \u062a\u0622\u0643\u0644 \u0641\u0627\u0626\u0642\u0629 \u0648\u0639\u0645\u0631 \u0623\u0637\u0648\u0644.",
-    f4_title: "\u0636\u0645\u0627\u0646 5 \u0633\u0646\u0648\u0627\u062a",
-    f4_desc: "\u0645\u062f\u0639\u0648\u0645 \u0628\u0636\u0645\u0627\u0646 \u0634\u0627\u0645\u0644 \u0644\u0645\u062f\u0629 5 \u0633\u0646\u0648\u0627\u062a \u0636\u062f \u0639\u064a\u0648\u0628 \u0627\u0644\u062a\u0635\u0646\u064a\u0639.",
-    gallery_title: "\u0645\u0639\u0631\u0636 \u0627\u0644\u0645\u0646\u062a\u062c",
-    gallery_subtitle: "\u0623\u0644\u0642\u0650 \u0646\u0638\u0631\u0629 \u0623\u0642\u0631\u0628 \u0639\u0644\u0649 \u0639\u0645\u0648\u062f\u0646\u0627 \u0627\u0644\u0645\u0631\u0641\u0642\u064a \u0627\u0644\u0645\u0645\u064a\u0632",
-    specs_title: "\u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062a \u0627\u0644\u0641\u0646\u064a\u0629",
-    specs_subtitle: "\u0645\u064f\u0635\u0645\u0645 \u0628\u062f\u0642\u0629 \u0644\u062a\u0644\u0628\u064a\u0629 \u0623\u0639\u0644\u0649 \u0627\u0644\u0645\u0639\u0627\u064a\u064a\u0631",
-    spec_material: "\u0627\u0644\u0645\u0627\u062f\u0629",
-    spec_weight: "\u0627\u0644\u0648\u0632\u0646",
-    spec_stroke: "\u0627\u0644\u0634\u0648\u0637",
-    spec_journal: "\u0627\u0644\u0645\u062d\u0645\u0644 \u0627\u0644\u0631\u0626\u064a\u0633\u064a",
-    spec_hardness: "\u0627\u0644\u0635\u0644\u0627\u0628\u0629",
-    spec_tolerance: "\u0627\u0644\u062a\u0641\u0627\u0648\u062a",
-    spec_warranty: "\u0627\u0644\u0636\u0645\u0627\u0646",
-    spec_origin: "\u0628\u0644\u062f \u0627\u0644\u0645\u0646\u0634\u0623",
-    contact_title: "\u062a\u0648\u0627\u0635\u0644 \u0645\u0639\u0646\u0627",
-    contact_subtitle: "\u0627\u0637\u0644\u0628 \u0639\u0631\u0636 \u0633\u0639\u0631 \u0623\u0648 \u0627\u0633\u0623\u0644\u0646\u0627 \u0623\u064a \u0634\u064a\u0621 \u0639\u0646 \u0645\u0646\u062a\u062c\u0646\u0627",
-    form_name: "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0643\u0627\u0645\u0644",
-    form_email: "\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a",
-    form_message: "\u0631\u0633\u0627\u0644\u062a\u0643",
-    form_submit: "\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0631\u0633\u0627\u0644\u0629",
-    form_success: "\u0634\u0643\u0631\u0627\u064b \u0644\u0643! \u062a\u0645 \u0625\u0631\u0633\u0627\u0644 \u0631\u0633\u0627\u0644\u062a\u0643 \u0628\u0646\u062c\u0627\u062d.",
-    form_error: "\u064a\u0631\u062c\u0649 \u0645\u0644\u0621 \u062c\u0645\u064a\u0639 \u0627\u0644\u062d\u0642\u0648\u0644 \u0628\u0634\u0643\u0644 \u0635\u062d\u064a\u062d.",
-    slide_alt: "\u0634\u0631\u064a\u062d\u0629 \u0627\u0644\u0639\u0645\u0648\u062f \u0627\u0644\u0645\u0631\u0641\u0642\u064a"
+    nav_intro: "التعريف",
+    nav_types: "الأنواع",
+    nav_materials: "المواد",
+    nav_process: "الإنتاج",
+    nav_heat: "المعالجة الحرارية",
+    nav_qc: "ضبط الجودة",
+    nav_order: "الطلب",
+    hero_eyebrow: "كتالوج إنتاج عمود المرفق",
+    hero_title: "ميل‌لنگ خراسان",
+    hero_subtitle: "إنتاج متخصص لأعمدة مرفق جرارات فيرغسون ١٦٥، ٢٤٠، ٢٨٥، ٣٩٩ و٤٧٥ بطريقة السباكة",
+    badge1: "فولاذ ٤٣٤٠",
+    badge2: "النتردة السطحية",
+    badge3: "دلفنة الأكتاف",
+    badge4: "ضبط جودة كامل",
+    hero_btn1: "مواصفات الطلب",
+    intro_title: "التعريف بالمنتج واستخداماته",
+    intro_subtitle: "ثلاث فئات استخدام، معيار إنتاج واحد",
+    intro_p1: "يُقدَّم عمود المرفق (الكرنك) في هذه الشركة في ثلاث فئات من الاستخدام: محركات الزراعة والجرارات (وتشمل موديلات فيرغسون ١٦٥ و٢٤٠ و٢٨٥ و٣٩٩ و٤٧٥)، ومحركات الديزل التجارية والثقيلة، والمحركات البنزينية الخفيفة. ولكل فئة نطاق محدد من قطر الكرسي (الجورنال) والشوط وعدد الأذرع وفئة الوزن، وهي مبينة في قسم مواصفات الطلب.",
+    intro_p2: "عمود المرفق هو القلب النابض لأي محرك احتراق داخلي؛ فهو القطعة التي تحول حركة المكبس الخطية إلى حركة دورانية، ويتعين عليها في الوقت نفسه تحمل أحمال الانحناء والالتواء المتغيرة والاهتزاز والتآكل على مدى سنوات طويلة. ولذلك تُطلب في تصنيعه خصائص تبدو للوهلة الأولى متناقضة: سطح صلب مقاوم للتآكل إلى جانب قلب متين مقاوم للصدمات.",
+    stat_classes: "فئات الاستخدام",
+    stat_models: "موديلات فيرغسون",
+    stat_steel: "الفولاذ الأساسي",
+    stat_core: "صلادة القلب",
+    types_title: "أنواع عمود المرفق وفئات الإنتاج",
+    types_subtitle: "السباكة — طريقة إنتاج كمي عالية الاستمرارية",
+    type1_title: "عمود المرفق المصبوب",
+    type1_desc: "يُصب المعدن المصهور في القالب، وبعد التصلب تُنتَج القطعة الخام. وتتيح هذه الطريقة إنتاج موديلات متطابقة بكميات كبيرة، ويجرى التشغيل النهائي للكراسي والأكتاف والمسامير على القطعة المصبوبة.",
+    type2_title: "الموديلات المنتجة",
+    type2_desc: "تنتج الشركة عمود مرفق جرارات فيرغسون موديلات ١٦٥ و٢٤٠ و٢٨٥ و٣٩٩ و٤٧٥ بطريقة السباكة. وهذه الموديلات هي الأكثر طلبًا في السوق الزراعي، وقد خصصت لها برامج إنتاج متواصلة ومخزون يُعتمد عليه.",
+    type3_title: "فولاذ منخفض السبائك ٤٣٤٠",
+    type3_desc: "الفولاذ الأساسي في خط الإنتاج هذا هو الفولاذ منخفض السبائك القابل للمعالجة الحرارية ٤٣٤٠، المعروف بمتانته العالية وقدرته على بلوغ مقاومة مرتفعة إلى جانب مقاومة جيدة للإجهاد.",
+    type4_title: "سبائك بديلة",
+    type4_desc: "بناءً على طلب العميل يمكن توفير فولاذ سبائكي آخر مثل B30EN. ويُنصح بتشغيل الفولاذ ٤٣٤٠ في حالته الملدنة أو المطبعة والمطمورة.",
+    materials_title: "المواد الأولية ومواصفات الفولاذ",
+    materials_subtitle: "فولاذ ٤٣٤٠ — المتصلب في كامل المقطع",
+    materials_p1: "الفولاذ الأساسي في خط الإنتاج هذا هو الفولاذ منخفض السبائك القابل للمعالجة الحرارية ٤٣٤٠، المعروف بمتانته العالية وقدرته على بلوغ مقاومة مرتفعة إلى جانب مقاومة جيدة للإجهاد. ويعد هذا الفولاذ من نوع «المتصلب في كامل المقطع»، ويمكن أيضًا معالجة مقاطعه السميكة حراريًا للوصول إلى مقاومة عالية.",
+    materials_p2: "بناءً على طلب العميل يمكن توفير فولاذ سبائكي آخر مثل B30EN. وتجدر الإشارة إلى أن تشغيل الفولاذ ٤٣٤٠ يُنصح به في حالته الملدنة أو المطبعة والمطمورة؛ أما في حالة المقاومة العالية فتنخفض قابليته للتشغيل إلى نحو ١٠ إلى ٢٥ بالمئة من حالته الملدنة، وهذه النقطة هي التي تحدد ترتيب مراحل الإنتاج.",
+    steel1: "فولاذ منخفض السبائك، متصلب في كامل المقطع، متانة عالية",
+    steel2: "سبيكة بديلة بناءً على طلب العميل",
+    steel3_title: "ملدن / مطبع",
+    steel3: "الحالة الموصى بها للتشغيل",
+    process_title: "عملية الإنتاج خطوة بخطوة",
+    process_subtitle: "السباكة، ثم المعالجة الحرارية قبل التشغيل النهائي",
+    step1_t: "الصهر وتحضير المصهور",
+    step1_d: "يُصهر الفولاذ السبائكي في الفرن، ويُضبط تركيبه الكيميائي ويراقب قبل الصب.",
+    step2_t: "القولبة والسباكة",
+    step2_d: "يُصب المصهور في القالب، وبعد التصلب ينتَج عمود المرفق الخام.",
+    step3_t: "تنظيف القطعة الخام",
+    step3_d: "تُزال النتوءات وفوائض التغذية والرمال الملتصقة من سطح القطعة.",
+    step4_t: "التبريد السريع والطمر",
+    step4_d: "تُبرَّد القطعة الخام سريعًا في وسط مراقب ثم تُطمر حتى تبلغ صلادة القلب نحو ٣٦ راكول C.",
+    step5_t: "التشغيل الميكانيكي",
+    step5_d: "تُخرَط الكراسي والأكتاف والمسامير وثقوب التزييت.",
+    step6_t: "إزالة الإجهاد",
+    step6_d: "تُسخَّن القطعة في الفرن إلى نطاق ٢٠٠ إلى ٣١٥ درجة مئوية وتُبرَّد بمعدل تبريد مراقب لإزالة إجهادات التشغيل المتبقية.",
+    heat_title: "المعالجة الحرارية والتصليب السطحي",
+    heat_subtitle: "النتردة — تصليب سطحي بأدنى تشوه",
+    heat1_t: "النتردة الغازية",
+    heat1_d: "تُعرَض القطعة لمزيج من الأمونيا والنيتروجين، فيُشكل النيتروجين الذري مع العناصر السبائكية في السطح نيتريدات ثابتة وصلبة.",
+    heat2_t: "حرارة أدنى من الكربنة",
+    heat2_d: "خلافًا للكربنة (٨٧٥ إلى ٩٢٥ درجة)، تُنفذ هذه العملية في نطاق استقرار الفريت وعند ٥٥٠ إلى ٦٥٠ درجة مئوية؛ التبريد في الهواء وتقليل التشوه.",
+    heat3_t: "عمق الطبقة الصلبة",
+    heat3_d: "عادة ٠٫٠٠٢ إلى ٠٫٠٠٥ بوصة (نحو ٥٠ إلى ١٢٥ ميكرومتر). لا ينصح بالمبالغة في هذا العمق لأنه قد يجعل مناطق الأكتاف هشة ومعرضة للتشقق.",
+    heat4_t: "دلفنة الأكتاف",
+    heat4_d: "تخضع الأكتاف قبل النتردة لعملية الدلفنة؛ فهي تُحدث إجهادًا انضغاطيًا مرغوبًا في السطح يؤخر بدء شق الإجهاد.",
+    qc_title: "ضبط الجودة واختبارات القبول",
+    qc_subtitle: "تخضع كل قطعة قبل التسليم لمجموعة من الاختبارات",
+    qc1_t: "الفحص الأبعادي:",
+    qc1_d: "قياس أقطار الكراسي والشوط وتفاوت التوازي المحوري وحدة الزوايا.",
+    qc2_t: "قياس البروفيل:",
+    qc2_d: "فحص انحناء سطح الكراسي بجهاز البروفيلوميتر للتأكد من صحة التشكيل.",
+    qc3_t: "اختبار الصلادة:",
+    qc3_d: "قياس صلادة القلب والسطح وعمق الطبقة المنتردة.",
+    qc4_t: "اختبار الإجهاد والتعب:",
+    qc4_d: "تأكيد المتانة المعدنية للقطعة في ظروف تحميل قريبة من الواقع.",
+    qc5_t: "الفحص البصري والأبعادي النهائي:",
+    qc5_d: "التحقق الكامل من ثقوب التزييت وخلو القطعة من الشقوق السطحية.",
+    order_title: "مواصفات الطلب وشروط التسليم",
+    order_subtitle: "يُسجل الطلب وفق الجدول التالي ومع تقديم المخطط أو عينة مادية",
+    th_param: "البارامتر القابل للطلب",
+    th_options: "الخيارات المتاحة",
+    row1_l: "أسلوب التشكيل",
+    row1_v: "السباكة",
+    row2_l: "نوع الفولاذ",
+    row2_v: "٤٣٤٠ أو B30EN أو سبيكة متفق عليها",
+    row3_l: "عدد الأذرع",
+    row3_v: "وفق المخطط",
+    row4_l: "عمق النتردة",
+    row4_v: "٠٫٠٠٢ إلى ٠٫٠٠٥ بوصة",
+    row5_l: "دلفنة الأكتاف",
+    row5_v: "مع أو بدون",
+    row6_l: "الطمر البردي (التبريد العميق)",
+    row6_v: "اختياري",
+    row7_l: "التشطيب النهائي",
+    row7_v: "إزالة الحواف، الصقل، الموازنة الديناميكية",
+    order_note: "يجري تسليم المنتج مرفقًا بتقرير ضبط الجودة وشهادة جنس الفولاذ وتقرير قياس الصلادة. وفي الطلبات الخاصة يمكن توفير فولاذ سبائكي مخصص واختيار عمق تصليب مختلف وموازنة ديناميكية لقطعة واحدة."
   }
 };
 
 const langButtons = document.querySelectorAll('.lang-btn');
 const htmlEl = document.documentElement;
 const bodyEl = document.body;
-
-let currentLang = localStorage.getItem('lang') || 'en';
+let currentLang = localStorage.getItem('lang') || 'fa';
 
 function setLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('lang', lang);
-
   const dir = (lang === 'fa' || lang === 'ar') ? 'rtl' : 'ltr';
   htmlEl.setAttribute('lang', lang);
   htmlEl.setAttribute('dir', dir);
-  bodyEl.setAttribute('dir', dir);
   bodyEl.setAttribute('lang', lang);
+  bodyEl.setAttribute('dir', dir);
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    if (translations[lang] && translations[lang][key]) {
+    if (translations[lang] && translations[lang][key] !== undefined) {
       el.textContent = translations[lang][key];
     }
   });
 
-  langButtons.forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.lang === lang);
-  });
+  langButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
 }
 
-langButtons.forEach(btn => {
-  btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
-});
-
+langButtons.forEach(btn => btn.addEventListener('click', () => setLanguage(btn.dataset.lang)));
 setLanguage(currentLang);
 
 const slides = document.querySelectorAll('.slide');
@@ -185,10 +346,8 @@ function goToSlide(index) {
   dots[currentSlide].classList.add('active');
   resetInterval();
 }
-
 function nextSlide() { goToSlide(currentSlide + 1); }
 function prevSlide() { goToSlide(currentSlide - 1); }
-
 function resetInterval() {
   clearInterval(slideInterval);
   slideInterval = setInterval(nextSlide, 5500);
@@ -205,12 +364,10 @@ document.addEventListener('keydown', (e) => {
 
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
-
 menuToggle.addEventListener('click', () => {
   menuToggle.classList.toggle('active');
   nav.classList.toggle('open');
 });
-
 nav.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     menuToggle.classList.remove('active');
@@ -223,10 +380,7 @@ window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 30);
 });
 
-const revealElements = document.querySelectorAll(
-  '.section-title, .section-subtitle, .feature-card, .gallery-item, .spec-row, .contact-form'
-);
-
+const revealElements = document.querySelectorAll('.section-title, .section-subtitle, .feature-card, .step, .heat-card, .qc-list li, .spec-row, .steel-card, .stat-card, .materials-box');
 revealElements.forEach(el => el.classList.add('reveal'));
 
 const revealObserver = new IntersectionObserver((entries) => {
@@ -236,32 +390,8 @@ const revealObserver = new IntersectionObserver((entries) => {
       revealObserver.unobserve(entry.target);
     }
   });
-}, { threshold: 0.15 });
-
+}, { threshold: 0.12 });
 revealElements.forEach(el => revealObserver.observe(el));
-
-const form = document.getElementById('contactForm');
-const formStatus = document.getElementById('formStatus');
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const name = document.getElementById('name').value.trim();
-  const email = document.getElementById('email').value.trim();
-  const message = document.getElementById('message').value.trim();
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  if (!name || !email || !message || !emailRegex.test(email)) {
-    formStatus.textContent = translations[currentLang].form_error;
-    formStatus.style.color = '#ff6b6b';
-    return;
-  }
-
-  formStatus.textContent = translations[currentLang].form_success;
-  formStatus.style.color = '#d4af37';
-  form.reset();
-
-  setTimeout(() => { formStatus.textContent = ''; }, 5000);
-});
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
