@@ -2,6 +2,7 @@ const translations = {
   fa: {
     nav_intro: "معرفی",
     nav_types: "انواع",
+    nav_gallery: "گالری",
     nav_materials: "مواد اولیه",
     nav_process: "فرآیند تولید",
     nav_heat: "عملیات حرارتی",
@@ -15,6 +16,7 @@ const translations = {
     badge3: "رولینگ فیله",
     badge4: "کنترل کیفیت کامل",
     hero_btn1: "مشخصات سفارش",
+    hero_btn2: "گالری محصول",
     intro_title: "معرفی محصول و کاربردها",
     intro_subtitle: "سه رده کاربرد، یک استاندارد تولید",
     intro_p1: "میل‌لنگ‌های این شرکت در سه رده کاربرد عرضه می‌شوند: موتورهای کشاورزی و تراکتور (شامل مدل‌های فرگوسن ۱۶۵، ۲۴۰، ۲۸۵، ۳۹۹ و ۴۷۵)، موتورهای دیزل تجاری و سنگین، و موتورهای بنزینی سبک. هر رده محدوده مشخصی از قطر ژورنال، کورس، تعداد لنگ و کلاس وزنی دارد که در بخش مشخصات سفارش آمده است.",
@@ -33,6 +35,8 @@ const translations = {
     type3_desc: "فولاد پایه این خط تولید، فولاد کم آلیاژ و قابل عملیات حرارتی ۴۳۴۰ است که به دلیل چقرمگی بالا و توانایی رسیدن به استحکام زیاد همراه با مقاومت خستگی مناسب، شناخته شده است.",
     type4_title: "آلیاژهای جایگزین",
     type4_desc: "بر پایه درخواست مشتری، فولادهای آلیاژی دیگر مانند B30EN نیز قابل تأمین است. ماشین‌کاری فولاد ۴۳۴۰ در حالت آنیل یا نرماله و تمپرشده توصیه می‌شود.",
+    gallery_title: "گالری محصول",
+    gallery_subtitle: "نگاهی نزدیک به میل‌لنگ‌های تولیدی",
     materials_title: "مواد اولیه و مشخصات فولاد",
     materials_subtitle: "فولاد ۴۳۴۰؛ سخت‌شونده در کل مقطع",
     materials_p1: "فولاد پایه این خط تولید، فولاد کم آلیاژ و قابل عملیات حرارتی ۴۳۴۰ است که به دلیل چقرمگی بالا و توانایی رسیدن به استحکام زیاد همراه با مقاومت خستگی مناسب، شناخته شده است. این فولاد از نوع «سخت‌شونده در کل مقطع» به شمار می‌رود و مقاطع ضخیم آن نیز قابل عملیات حرارتی تا استحکام بالاست.",
@@ -100,6 +104,7 @@ const translations = {
   en: {
     nav_intro: "Introduction",
     nav_types: "Types",
+    nav_gallery: "Gallery",
     nav_materials: "Materials",
     nav_process: "Production",
     nav_heat: "Heat Treatment",
@@ -113,6 +118,7 @@ const translations = {
     badge3: "Fillet Rolling",
     badge4: "Full QC",
     hero_btn1: "Order Specifications",
+    hero_btn2: "View Gallery",
     intro_title: "Product Introduction and Applications",
     intro_subtitle: "Three application classes, one production standard",
     intro_p1: "Crankshafts from this company are supplied in three application classes: agricultural and tractor engines (including Ferguson models 165, 240, 285, 399, and 475), commercial and heavy-duty diesel engines, and light gasoline engines. Each class has a specific range of journal diameter, stroke, number of throws, and weight class, set out in the Ordering Specifications section.",
@@ -131,6 +137,8 @@ const translations = {
     type3_desc: "The base steel of this line is 4340 low-alloy, heat-treatable steel, recognized for its high toughness and its ability to reach high strength together with good fatigue resistance.",
     type4_title: "Alternative Alloys",
     type4_desc: "On customer request, other alloy steels such as EN30B/B30EN can also be supplied. Machining 4340 steel is recommended in the annealed or normalized-and-tempered condition.",
+    gallery_title: "Product Gallery",
+    gallery_subtitle: "A closer look at our manufactured crankshafts",
     materials_title: "Raw Materials and Steel Specifications",
     materials_subtitle: "4340 steel — through-hardening",
     materials_p1: "The base steel of this line is 4340 low-alloy, heat-treatable steel, recognized for its high toughness and its ability to reach high strength together with good fatigue resistance. This steel is through-hardening, and even thick sections can be heat treated to high strength.",
@@ -198,6 +206,7 @@ const translations = {
   ar: {
     nav_intro: "التعريف",
     nav_types: "الأنواع",
+    nav_gallery: "المعرض",
     nav_materials: "المواد",
     nav_process: "الإنتاج",
     nav_heat: "المعالجة الحرارية",
@@ -211,6 +220,7 @@ const translations = {
     badge3: "دلفنة الأكتاف",
     badge4: "ضبط جودة كامل",
     hero_btn1: "مواصفات الطلب",
+    hero_btn2: "معرض المنتج",
     intro_title: "التعريف بالمنتج واستخداماته",
     intro_subtitle: "ثلاث فئات استخدام، معيار إنتاج واحد",
     intro_p1: "يُقدَّم عمود المرفق (الكرنك) في هذه الشركة في ثلاث فئات من الاستخدام: محركات الزراعة والجرارات (وتشمل موديلات فيرغسون ١٦٥ و٢٤٠ و٢٨٥ و٣٩٩ و٤٧٥)، ومحركات الديزل التجارية والثقيلة، والمحركات البنزينية الخفيفة. ولكل فئة نطاق محدد من قطر الكرسي (الجورنال) والشوط وعدد الأذرع وفئة الوزن، وهي مبينة في قسم مواصفات الطلب.",
@@ -229,6 +239,8 @@ const translations = {
     type3_desc: "الفولاذ الأساسي في خط الإنتاج هذا هو الفولاذ منخفض السبائك القابل للمعالجة الحرارية ٤٣٤٠، المعروف بمتانته العالية وقدرته على بلوغ مقاومة مرتفعة إلى جانب مقاومة جيدة للإجهاد.",
     type4_title: "سبائك بديلة",
     type4_desc: "بناءً على طلب العميل يمكن توفير فولاذ سبائكي آخر مثل B30EN. ويُنصح بتشغيل الفولاذ ٤٣٤٠ في حالته الملدنة أو المطبعة والمطمورة.",
+    gallery_title: "معرض المنتج",
+    gallery_subtitle: "نظرة أقرب على أعمدة المرفق المصنّعة",
     materials_title: "المواد الأولية ومواصفات الفولاذ",
     materials_subtitle: "فولاذ ٤٣٤٠ — المتصلب في كامل المقطع",
     materials_p1: "الفولاذ الأساسي في خط الإنتاج هذا هو الفولاذ منخفض السبائك القابل للمعالجة الحرارية ٤٣٤٠، المعروف بمتانته العالية وقدرته على بلوغ مقاومة مرتفعة إلى جانب مقاومة جيدة للإجهاد. ويعد هذا الفولاذ من نوع «المتصلب في كامل المقطع»، ويمكن أيضًا معالجة مقاطعه السميكة حراريًا للوصول إلى مقاومة عالية.",
@@ -322,46 +334,6 @@ function setLanguage(lang) {
 langButtons.forEach(btn => btn.addEventListener('click', () => setLanguage(btn.dataset.lang)));
 setLanguage(currentLang);
 
-const slides = document.querySelectorAll('.slide');
-const dotsContainer = document.getElementById('sliderDots');
-let currentSlide = 0;
-let slideInterval;
-
-slides.forEach((_, i) => {
-  const dot = document.createElement('button');
-  dot.classList.add('dot');
-  if (i === 0) dot.classList.add('active');
-  dot.setAttribute('aria-label', 'Slide ' + (i + 1));
-  dot.addEventListener('click', () => goToSlide(i));
-  dotsContainer.appendChild(dot);
-});
-
-const dots = document.querySelectorAll('.dot');
-
-function goToSlide(index) {
-  slides[currentSlide].classList.remove('active');
-  dots[currentSlide].classList.remove('active');
-  currentSlide = (index + slides.length) % slides.length;
-  slides[currentSlide].classList.add('active');
-  dots[currentSlide].classList.add('active');
-  resetInterval();
-}
-function nextSlide() { goToSlide(currentSlide + 1); }
-function prevSlide() { goToSlide(currentSlide - 1); }
-function resetInterval() {
-  clearInterval(slideInterval);
-  slideInterval = setInterval(nextSlide, 5500);
-}
-
-document.getElementById('nextSlide').addEventListener('click', nextSlide);
-document.getElementById('prevSlide').addEventListener('click', prevSlide);
-resetInterval();
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'ArrowRight') nextSlide();
-  if (e.key === 'ArrowLeft') prevSlide();
-});
-
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
 menuToggle.addEventListener('click', () => {
@@ -380,7 +352,7 @@ window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 30);
 });
 
-const revealElements = document.querySelectorAll('.section-title, .section-subtitle, .feature-card, .step, .heat-card, .qc-list li, .spec-row, .steel-card, .stat-card, .materials-box');
+const revealElements = document.querySelectorAll('.section-title, .section-subtitle, .feature-card, .step, .heat-card, .qc-list li, .spec-row, .steel-card, .stat-card, .materials-box, .gallery-item');
 revealElements.forEach(el => el.classList.add('reveal'));
 
 const revealObserver = new IntersectionObserver((entries) => {
