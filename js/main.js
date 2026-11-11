@@ -52,7 +52,7 @@ svg { display: block; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 76px;
+  height: 96px;
   gap: 16px;
 }
 
@@ -63,9 +63,9 @@ svg { display: block; }
   height: 100%;
 }
 .logo-img {
-  height: 70px;
+  height: 88px;
   width: auto;
-  max-width: 220px;
+  max-width: 260px;
   object-fit: contain;
   display: block;
   transition: var(--transition);
@@ -149,7 +149,7 @@ body[lang="en"] .nav a::after { right: auto; left: 0; }
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding-top: 76px;
+  padding-top: 96px;
   background: radial-gradient(ellipse at 50% 40%, #132f4c 0%, #0a1929 50%, #050d17 100%);
 }
 
@@ -265,7 +265,32 @@ body[lang="en"] .nav a::after { right: auto; left: 0; }
 }
 .badge svg { color: var(--gold); }
 
-.hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+
+.hero-founded {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 28px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 16px;
+  background: rgba(212, 175, 55, 0.06);
+  backdrop-filter: blur(8px);
+}
+.founded-year {
+  display: block;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900;
+  color: var(--gold);
+  line-height: 1.1;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+.founded-text {
+  color: var(--text-light);
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  font-weight: 600;
+  line-height: 1.7;
+}
 
 .btn {
   display: inline-block;
@@ -327,7 +352,7 @@ body[lang="en"] .nav a::after { right: auto; left: 0; }
 
 .section-lead {
   max-width: 900px;
-  margin: 0 auto 48px;
+  margin: 24px auto 48px;
   color: var(--text-muted);
   font-size: 1rem;
   text-align: justify;
@@ -339,6 +364,7 @@ body[lang="en"] .nav a::after { right: auto; left: 0; }
   grid-template-columns: 1.4fr 1fr;
   gap: 40px;
   align-items: start;
+  margin-top: 32px;
 }
 .intro-text p { color: var(--text-muted); margin-bottom: 18px; font-size: 1rem; }
 .intro-text p:last-child { margin-bottom: 0; }
@@ -542,6 +568,7 @@ body[lang="en"] .step-num { right: auto; left: 20px; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
+  margin-top: 32px;
 }
 .heat-card {
   background: linear-gradient(145deg, var(--navy-light), var(--navy));
@@ -676,18 +703,18 @@ body[dir="rtl"] .spec-row span:last-child { text-align: right; }
 @media (max-width: 900px) {
   .nav {
     position: fixed;
-    top: 76px; left: 0; right: 0;
+    top: 96px; left: 0; right: 0;
     flex-direction: column;
     background: rgba(5, 13, 23, 0.99);
     backdrop-filter: blur(12px);
     padding: 12px 24px 16px;
     gap: 0;
-    transform: translateY(calc(-100% - 80px));
+    transform: translateY(calc(-100% - 100px));
     transition: transform var(--transition);
     border-bottom: 1px solid rgba(212, 175, 55, 0.2);
     justify-content: flex-start;
     z-index: 999;
-    max-height: calc(100vh - 76px);
+    max-height: calc(100vh - 96px);
     overflow-y: auto;
   }
   .nav.open { transform: translateY(0); }
@@ -719,11 +746,11 @@ body[dir="rtl"] .spec-row span:last-child { text-align: right; }
 
 @media (max-width: 600px) {
   .section { padding: 70px 0; }
-  .header-inner { height: 66px; }
-  .logo-img { height: 38px; max-width: 160px; }
+  .header-inner { height: 84px; }
+  .logo-img { height: 72px; max-width: 210px; }
   .lang-btn { padding: 5px 7px; font-size: 0.7rem; }
-  .hero { padding-top: 66px; }
-  .nav { top: 66px; max-height: calc(100vh - 66px); }
+  .hero { padding-top: 84px; }
+  .nav { top: 84px; max-height: calc(100vh - 84px); }
   .spec-row { padding: 14px 18px; font-size: 0.9rem; flex-direction: column; gap: 4px; }
   .spec-row span:last-child { text-align: inherit; }
   .spec-head { padding: 16px 18px; font-size: 0.88rem; }
@@ -740,6 +767,7 @@ body[dir="rtl"] .spec-row span:last-child { text-align: right; }
     filter: grayscale(20%) brightness(1.6);
   }
   .section-lead { text-align: right; font-size: 0.95rem; }
+  .hero-founded { padding: 20px 20px; }
 }
 
 ::-webkit-scrollbar { width: 10px; }
